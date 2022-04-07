@@ -1,0 +1,135 @@
+@media screen and (max-width: 768px) {
+
+    .barra img {
+        height: 120px;
+        width: 120px;
+    }
+
+    header .barra li {
+        padding-top: 0px !important;
+    }
+
+    .barra {
+             height: 120px !important;
+      
+    }
+
+    nav ul {
+        display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+    .navbar {
+        padding: 0px !important;
+    }
+    
+    nav ul li {
+        padding: 0px !important;
+    }
+
+    .bloquefotos {
+        display: inline;
+        margin: auto;
+        width: 80%;
+    }
+
+    .bloquefotos h2 {
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    .bloquefotos img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .fotouno {
+        height: 100%;
+        margin: auto;
+        width: 80%;
+        align-items: center;
+    }
+
+    .fotodos {
+        height: 100%;
+        margin: auto;
+        width: 80%;
+        align-items: center;
+    }
+
+    .fototres {
+        height: 100%;
+        margin: auto;
+        width: 80%;
+        align-items: center;
+    }
+
+    .fotocuatro {
+        height: 100%;
+        margin: auto;
+        width: 80%;
+        align-items: center;
+    }
+
+    .ofertaweb {
+        height: 100%;
+        margin: auto;
+        width: 80%;
+        align-items: center;
+        padding: 0px  !important;
+    }
+
+    .contactanos {
+        height: 100%;
+        margin: auto;
+        width: 80%;
+        align-items: center;
+        padding: 0px !important;
+    }
+
+    footer {
+        margin: auto;
+    }
+
+    .novedadespadre {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 80%;
+        margin: auto;
+        height: auto;
+        gap: 10px;
+        
+    }
+
+    .novedadespadre img {
+        height: auto;
+    }
+
+
+    .ofertaspadre {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ofertaspadre img {
+        height: max-content;
+        margin: auto;
+    }
+
+    .categoriaspadre {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .categoriaspadre img {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+} 

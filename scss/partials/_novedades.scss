@@ -1,0 +1,46 @@
+.novedadespadre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "novedadesuno novedadesdos novedadestres"
+        "novedadescuatro novedadescinco novedadesseis";
+    margin: auto;
+    gap: 50px;
+    width: 80%;
+}
+
+.novedadesuno img {
+    grid-area: novedadesuno;
+    width: 100%;
+    height: 300px;
+}
+
+.novedadesdos img {
+    grid-area: novedadesdos;
+    width: 100%;
+    height: 300px;
+}
+
+.novedadestres img {
+    grid-area: novedadestres;
+    width: 100%;
+    height: 300px;
+}
+
+.novedadescuatro img {
+    grid-area: novedadescuatro;
+    width: 100%;
+    height: 300px;
+}
+
+.novedadescinco img {
+    grid-area: novedadescinco;
+    width: 100%;
+    height: 300px;
+}
+
+.novedadesseis img {
+    grid-area: novedadesseis;
+    width: 100%;
+    height: 300px;
+}
