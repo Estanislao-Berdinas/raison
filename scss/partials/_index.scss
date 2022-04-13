@@ -13,15 +13,13 @@
 
 
 .bloquefotos {
-    display: grid;
+    @include display (grid, auto, 80%);
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "fotouno fotodos ofertaweb"
         "fototres fotocuatro contactanos";
     gap: 40px;
     justify-content: center;
-    margin: auto;
-    width: 80%;
     h2 {
         text-align: start;
     }
