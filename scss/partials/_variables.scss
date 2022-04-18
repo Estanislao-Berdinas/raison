@@ -10,6 +10,7 @@ $colores: (
     redlogo: rgba(189, 55, 55, 0.733),
     hovers: rgba(198, 198, 198, 0.5), 
     bg: white,
+    bordes: #6c757d
 );
 
 %textos {
@@ -49,3 +50,8 @@ p {
     font-weight: bold;
 
 }
+
+button {
+    width: 100%;
+}
+

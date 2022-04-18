@@ -1,21 +1,19 @@
-
-.contactanos {
+.contacto {
+    border: 5px solid map-get($map: $colores, $key: redlogo ); 
+    border-radius: 5px;
     padding: 5px;
-    margin: auto;
-    width: 80%;
-
 }
-
 .__contact {
     margin: auto;
-    width: 80%;
-}
+    width: 100%;
+    }
 
-#form {
+form {
     text-align: center;
     padding: 5px;
     margin: auto;
-    width: 80%;
+    width: 100%;
+        
 }
 
 label {
@@ -24,15 +22,3 @@ label {
     font-style: italic;
 
 }
-
-.instarai {
-    margin: auto;
-    width: 80%;
-    text-align: center;
-    img {
-        width: 300px;
-        height: 300px;
-    }
-
-}
-

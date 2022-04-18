@@ -31,66 +31,30 @@
         padding: 0px !important;
     }
 
-    .bloquefotos {
-        display: inline;
-        margin: auto;
-        width: 80%;
+    .d-block {
+        width: 100% !important;
     }
 
-    .bloquefotos h2 {
-        padding-top: 10px;
-        text-align: center;
-    }
-    
-    .bloquefotos img {
+    .bloquefotos {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
         width: 100%;
         margin: auto;
+        height: auto;
+        gap: 10px;
     }
 
-    .fotouno {
-        height: 100%;
+    .bloquedos {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
         margin: auto;
-        width: 80%;
-        align-items: center;
+        height: auto;
+        gap: 10px;
     }
-
-    .fotodos {
-        height: 100%;
-        margin: auto;
-        width: 80%;
-        align-items: center;
-    }
-
-    .fototres {
-        height: 100%;
-        margin: auto;
-        width: 80%;
-        align-items: center;
-    }
-
-    .fotocuatro {
-        height: 100%;
-        margin: auto;
-        width: 80%;
-        align-items: center;
-    }
-
-    .ofertaweb {
-        height: 100%;
-        margin: auto;
-        width: 80%;
-        align-items: center;
-        padding: 0px  !important;
-    }
-
-    .contactanos {
-        height: 100%;
-        margin: auto;
-        width: 80% !important;
-        align-items: center;
-        padding: 0px !important;
-    }
-
+   
     footer {
         margin: auto;
     }
@@ -99,7 +63,7 @@
         display: flex;
         flex-direction: column;
         align-items: stretch;
-        width: 80%;
+        width: 100%;
         margin: auto;
         height: auto;
         gap: 10px;
@@ -112,8 +76,13 @@
 
 
     .ofertaspadre {
-        flex-wrap: wrap;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        margin: auto;
+        height: auto;
+        gap: 10px;
     }
 
     .ofertaspadre img {
@@ -121,15 +90,34 @@
         margin: auto;
     }
 
-    .categoriaspadre {
+    .categoriadeco {
         display: flex;
         flex-direction: column;
         align-items: stretch;
+        width: 100%;
+        margin: auto;
+        height: auto;
+        gap: 10px;
     }
 
-    .categoriaspadre img {
+    .categoriajardin {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
         width: 100%;
+        margin: auto;
         height: auto;
-        padding: 0px;
+        gap: 10px;
     }
+
+    .categoriahogar {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        margin: auto;
+        height: auto;
+        gap: 10px;
+    }
+
 } 
