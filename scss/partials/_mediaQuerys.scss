@@ -1,35 +1,35 @@
 @media screen and (max-width: 768px) {
 
-    .barra img {
-        height: 120px;
-        width: 120px;
+    header img {
+        height: 100%;
+        width: 100%;
     }
 
-    header .barra li {
-        padding-top: 0px !important;
-    }
+    // header .barra li {
+    //     padding-top: 0px !important;
+    // }
 
-    .barra {
-             height: 120px !important;
+    // .barra {
+    //          height: 120px !important;
       
-    }
+    // }
 
-    nav ul {
-        display: flex;
-    flex-direction: column;
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
+    // nav ul {
+    //     display: flex;
+    // flex-direction: column;
+    // padding: 5px;
+    // align-items: center;
+    // justify-content: center;
 
-    }
+    // }
 
-    .navbar {
-        padding: 0px !important;
-    }
+    // .navbar {
+    //     padding: 0px !important;
+    // }
     
-    nav ul li {
-        padding: 0px !important;
-    }
+    // nav ul li {
+    //     padding: 0px !important;
+    // }
 
     .d-block {
         width: 100% !important;

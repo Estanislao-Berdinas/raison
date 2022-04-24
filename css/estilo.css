@@ -255,37 +255,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .barra img {
-    height: 120px;
-    width: 120px;
-  }
-  header .barra li {
-    padding-top: 0px !important;
-  }
-  .barra {
-    height: 120px !important;
-  }
-  nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 5px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .navbar {
-    padding: 0px !important;
-  }
-  nav ul li {
-    padding: 0px !important;
+  header img {
+    height: 100%;
+    width: 100%;
   }
   .d-block {
     width: 100% !important;
