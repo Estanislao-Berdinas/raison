@@ -11,20 +11,20 @@
     margin: auto;
 }
 
-.bloquefotos {
-    @include display (grid, auto, 90%);
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "fotouno fotodos"
-        "fototres fotocuatro";
-    gap: 40px;
-    justify-content: center;
+// .bloquefotos {
+//     @include display (grid, auto, 90%);
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-rows: 1fr 1fr;
+//     grid-template-areas: "fotouno fotodos"
+//         "fototres fotocuatro";
+//     gap: 40px;
+//     justify-content: center;
     
-    img {
-        width: 100%;
-        height: 400px;
-    }
-}
+//     img {
+//         width: 100%;
+//         height: 400px;
+//     }
+// }
 
 .bloquedos {
     @include display (grid, auto, 90%);
