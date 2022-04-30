@@ -9,7 +9,7 @@
 
 h1, h2 {
   color: black;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
 }
 
@@ -25,6 +25,7 @@ h1 {
 
 h3 {
   font-size: 18px;
+  font-weight: bolder;
 }
 
 p {
@@ -36,40 +37,18 @@ button {
   width: 100%;
 }
 
-header {
-  width: 100%;
+header img {
+  width: 100px;
   height: 100px;
 }
 
-header .barra {
-  background-color: rgba(189, 55, 55, 0.733);
-  width: 100%;
-  height: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: auto;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+header .nav__lista {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-header .barra li {
-  padding-top: 30px !important;
-  display: inline;
-}
-
-header .barra li a {
-  text-decoration: none;
-  color: antiquewhite;
-  font-size: 14px;
-  text-transform: uppercase;
-  padding-left: 15px;
-  font-weight: bold;
-  padding-right: 15px;
-}
-
-header .barra li a a:hover {
+header a:hover {
   background-color: rgba(198, 198, 198, 0.5);
 }
 
@@ -80,6 +59,7 @@ footer {
   margin: auto;
   font-size: 14px;
   width: 100%;
+  text-align: center;
 }
 
 #carouselExampleControls {
@@ -92,50 +72,52 @@ footer {
 }
 
 .d-block {
-  width: 90% !important;
-  height: 500px;
+  width: 95% !important;
+  height: 525px;
   -o-object-fit: cover;
      object-fit: cover;
   margin: auto;
 }
 
-.bloquefotos {
+.container_index {
   display: -ms-grid;
   display: grid;
   margin: auto;
-  width: 90%;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      grid-template-areas: "fotouno fotodos" "fototres fotocuatro";
-  gap: 40px;
+  width: 95%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 15px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
 }
 
-.bloquefotos img {
+.container_index img {
   width: 100%;
   height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .bloquedos {
   display: -ms-grid;
   display: grid;
   margin: auto;
-  width: 90%;
+  width: 95%;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
-      grid-template-areas: "ofertaweb contactanos";
-  gap: 40px;
+  gap: 15px;
 }
 
 .bloquedos img {
   width: 100%;
   height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .novedadespadre {
@@ -182,8 +164,8 @@ footer {
   display: grid;
   margin: auto;
   width: 100%;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 0fr;
       grid-template-rows: 0fr;
   gap: 15px;
@@ -194,7 +176,11 @@ footer {
 
 .categoriadeco img {
   width: 100%;
-  height: 200px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 3px solid #43494e61;
+  border-radius: 2px;
 }
 
 .categoriahogar {
@@ -214,7 +200,11 @@ footer {
 
 .categoriahogar img {
   width: 100%;
-  height: 200px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 3px solid #43494e61;
+  border-radius: 2px;
 }
 
 .categoriajardin {
@@ -222,8 +212,8 @@ footer {
   display: grid;
   margin: auto;
   width: 100%;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 0fr;
       grid-template-rows: 0fr;
   gap: 15px;
@@ -234,11 +224,15 @@ footer {
 
 .categoriajardin img {
   width: 100%;
-  height: 200px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 3px solid #43494e61;
+  border-radius: 2px;
 }
 
 .contacto {
-  border: 5px solid rgba(189, 55, 55, 0.733);
+  border: 5px solid #43494e61;
   border-radius: 5px;
   padding: 5px;
 }
@@ -262,42 +256,17 @@ label {
 }
 
 @media screen and (max-width: 768px) {
-  .barra img {
-    height: 120px;
-    width: 120px;
+  .bg-light button {
+    width: 50%;
   }
-  header .barra li {
-    padding-top: 0px !important;
-  }
-  .barra {
-    height: 120px !important;
-  }
-  nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 5px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .navbar {
-    padding: 0px !important;
-  }
-  nav ul li {
-    padding: 0px !important;
+  .bg-light img {
+    width: 150px;
+    height: 150px !important;
   }
   .d-block {
     width: 100% !important;
   }
-  .bloquefotos {
+  .container_index {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

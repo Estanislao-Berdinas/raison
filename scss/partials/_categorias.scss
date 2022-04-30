@@ -1,12 +1,15 @@
 .categoriadeco {
     @include display (grid, auto, 100%);
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0fr;
     gap: 15px;
     justify-content: center;
     img {
         width: 100%;
-        height: 200px;
+        height: 300px;
+        object-fit: cover;
+        border: 3px solid #43494e61;
+        border-radius: 2px;
     }
 }
 
@@ -18,125 +21,26 @@
     justify-content: center;
     img {
         width: 100%;
-        height: 200px;
+        height: 300px;
+        object-fit: cover;
+        border: 3px solid #43494e61;
+        border-radius: 2px;
     }
 
 }
 
 .categoriajardin {
     @include display (grid, auto, 100%);
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0fr;
     gap: 15px;
     justify-content: center;
     img {
         width: 100%;
-        height: 200px;
+        height: 300px;
+        object-fit: cover;
+        border: 3px solid #43494e61;
+        border-radius: 2px;
     }
 
 }
-
-// .decouno img {
-//     grid-area: decouno;
-//     width: 100%;
-//     height: 200px;
-//     padding-bottom: 45px;
-// }
-
-// .decodos img {
-//     grid-area: decodos;
-//     width: 100%;
-//     height: 200px;
-//     padding-top: 45px;
-// }
-
-// .decotres img {
-//     grid-area: decotres;
-//     width: 100%;
-//     height: 200px;
-//     padding-top: 45px;
-// }
-
-// .decocuatro img {
-//     grid-area: decocuatro;
-//     width: 100%;
-//     height: 200px;
-//     padding-top: 45px;
-// }
-
-// .decocinco img {
-//     grid-area: decocinco;
-//     width: 100%;
-//     height: 200px;
-//     padding-top: 45px;
-// }
-
-// .hogaruno img {
-//     grid-area: hogaruno;
-//     width: 100%;
-//     height: 200px;
-//     padding-bottom: 45px;
-// }
-
-// .hogardos img {
-//     grid-area: hogardos;
-//     width: 100%;
-//     height: 200px;
-//     padding-top: 45px;
-// }
-
-// .hogartres img {
-//     grid-area: hogartres;
-//     width: 100%;
-//     height: 200px;
-//     padding-top: 45px;
-// }
-
-// .hogarcuatro img {
-//     grid-area: hogarcuatro;
-//     width: 100%;
-//     height: 200px;
-//     padding-top: 45px;
-// }
-
-// .hogarcinco img {
-//     grid-area: hogarcinco;
-//     width: 100%;
-//     height: 200px;
-//     padding-top: 45px;
-// }
-
-// .jardinuno img {
-//     grid-area: jardinuno;
-//     width: 100%;
-//     height: 200px;
-//     padding-bottom: 45px;
-// }
-
-// .jardindos img {
-//     grid-area: jardindos;
-//     width: 100%;
-//     height: 200px;
-//     padding-top: 45px;
-// }
-
-// .jardintres img {
-//     grid-area: jardintres;
-//     width: 100%;
-//     height: 200px;
-//     padding-top: 45px;
-// }
-
-// .jardincuatro img {
-//     grid-area: jardincuatro;
-//     width: 100%;
-//     height: 200px;
-//     padding-top: 45px;
-// }
-
-// .jardincinco img {
-//     grid-area: jardincinco;
-//     width: 100%;
-//     height: 200px;
-//     padding-top: 45px;
-// }

@@ -1,41 +1,22 @@
 @media screen and (max-width: 768px) {
 
-    .barra img {
-        height: 120px;
-        width: 120px;
-    }
+    .bg-light {
 
-    header .barra li {
-        padding-top: 0px !important;
-    }
-
-    .barra {
-             height: 120px !important;
-      
-    }
-
-    nav ul {
-        display: flex;
-    flex-direction: column;
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
-
-    }
-
-    .navbar {
-        padding: 0px !important;
-    }
-    
-    nav ul li {
-        padding: 0px !important;
+        button {
+            width: 50%;
+        }
+        img {
+            width: 150px;
+            height: 150px!important;   
+        }
+        
     }
 
     .d-block {
         width: 100% !important;
     }
 
-    .bloquefotos {
+    .container_index {
         display: flex;
         flex-direction: column;
         align-items: stretch;
@@ -54,7 +35,7 @@
         height: auto;
         gap: 10px;
     }
-   
+
     footer {
         margin: auto;
     }
@@ -67,7 +48,7 @@
         margin: auto;
         height: auto;
         gap: 10px;
-        
+
     }
 
     .novedadespadre img {
@@ -120,4 +101,4 @@
         gap: 10px;
     }
 
-} 
+}

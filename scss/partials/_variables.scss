@@ -5,17 +5,14 @@
     list-style: none;
 }
 
-$colores: (
-    oldwhite: antiquewhite,
-    redlogo: rgba(189, 55, 55, 0.733),
-    hovers: rgba(198, 198, 198, 0.5), 
+$colores: (oldwhite: antiquewhite,
+    hovers: rgba(198, 198, 198, 0.5),
     bg: white,
-    bordes: #6c757d
-);
+    bordes: #6c757d);
 
 %textos {
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -26,7 +23,7 @@ $colores: (
 }
 
 body {
-    background-color: map-get($map: $colores, $key: bg );
+    background-color: map-get($map: $colores, $key: bg);
     font-family: 'Lato', sans-serif;
 }
 
@@ -43,6 +40,7 @@ h2 {
 
 h3 {
     font-size: 18px;
+    font-weight: bolder;
 }
 
 p {
@@ -54,4 +52,3 @@ p {
 button {
     width: 100%;
 }
-

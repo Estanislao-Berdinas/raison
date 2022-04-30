@@ -5,35 +5,34 @@
 }
 
 .d-block {
-    width: 90% !important;
-    height: 500px;
+    width: 95% !important;
+    height: 525px;
     object-fit: cover;
     margin: auto;
 }
 
-.bloquefotos {
-    @include display (grid, auto, 90%);
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "fotouno fotodos"
-        "fototres fotocuatro";
-    gap: 40px;
+.container_index {
+    @include display (grid, auto, 95%);
     justify-content: center;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     
     img {
         width: 100%;
         height: 400px;
+        object-fit: cover
     }
 }
 
 .bloquedos {
-    @include display (grid, auto, 90%);
+    @include display (grid, auto, 95%);
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "ofertaweb contactanos";
-    gap: 40px;
+    gap: 15px;
     img {
         width: 100%;
         height: 400px;
+        object-fit: cover;
     }
 }
