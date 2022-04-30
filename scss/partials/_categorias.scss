@@ -11,6 +11,9 @@
         border: 3px solid #43494e61;
         border-radius: 2px;
     }
+    img:hover {
+        transform: scale(1.1);
+    }
 }
 
 .categoriahogar {
@@ -25,6 +28,9 @@
         object-fit: cover;
         border: 3px solid #43494e61;
         border-radius: 2px;
+    }
+    img:hover {
+        transform: scale(1.15);
     }
 
 }
@@ -41,6 +47,9 @@
         object-fit: cover;
         border: 3px solid #43494e61;
         border-radius: 2px;
+    }
+    img:hover {
+        transform: scale(1.1);
     }
 
 }

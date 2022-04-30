@@ -101,6 +101,11 @@ footer {
      object-fit: cover;
 }
 
+.container_index img:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
 .bloquedos {
   display: -ms-grid;
   display: grid;
@@ -120,6 +125,11 @@ footer {
      object-fit: cover;
 }
 
+.bloquedos img:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
 .novedadespadre {
   display: -ms-grid;
   display: grid;
@@ -136,6 +146,18 @@ footer {
 .novedadespadre img {
   width: 100%;
   height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.novedadespadre img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.novedadespadre button:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .ofertaspadre {
@@ -157,6 +179,18 @@ footer {
   width: 100%;
   height: 400px;
   padding-top: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ofertaspadre img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.ofertaspadre button:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .categoriadeco {
@@ -183,6 +217,11 @@ footer {
   border-radius: 2px;
 }
 
+.categoriadeco img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .categoriahogar {
   display: -ms-grid;
   display: grid;
@@ -207,6 +246,11 @@ footer {
   border-radius: 2px;
 }
 
+.categoriahogar img:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
 .categoriajardin {
   display: -ms-grid;
   display: grid;
@@ -229,6 +273,11 @@ footer {
      object-fit: cover;
   border: 3px solid #43494e61;
   border-radius: 2px;
+}
+
+.categoriajardin img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .contacto {
