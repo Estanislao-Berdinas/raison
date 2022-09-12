@@ -21,6 +21,9 @@ body {
 h1 {
   border: 1px;
   padding: 5px;
+
+
+  
 }
 
 h3 {
@@ -139,7 +142,8 @@ footer {
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-      grid-template-areas: "novedadesuno novedadesdos novedadestres" "novedadescuatro novedadescinco novedadesseis";
+      grid-template-areas: "novedadesuno novedadesdos novedadestres"
+ "novedadescuatro novedadescinco novedadesseis";
   gap: 50px;
 }
 
